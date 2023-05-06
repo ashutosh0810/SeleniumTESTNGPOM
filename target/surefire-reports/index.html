@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MyTestSuite" class="navigator-link">
+              <span class="suite-name border-failed">MyTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MyTestSuite" class="navigator-link ">
+                    <span>C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MyTestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MyTestSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MyTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MyTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MyTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MyTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 12 failed,  4 skipped,  26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MyTestSuite" class="hide-methods failed suite-MyTestSuite"> (hide)</a> <!-- hide-methods failed suite-MyTestSuite -->
+                      <a href="#" panel-name="suite-MyTestSuite" class="show-methods failed suite-MyTestSuite"> (show)</a> <!-- show-methods failed suite-MyTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MyTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="addAddressTest">addAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="addAddressTest">addAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test4@ut.com, Ashu@123)">test_ValidLogin(test4@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test3@ut.com, Ashu@123)">test_ValidLogin(test3@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test2@ut.com, Ashu@123)">test_ValidLogin(test2@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.WhatsNewTest" class="method navigator-link" hash-for-method="validateWhatsNew">validateWhatsNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.WhatsNewTest" class="method navigator-link" hash-for-method="validateWhatsNew">validateWhatsNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.WhatsNewTest" class="method navigator-link" hash-for-method="validateWhatsNew">validateWhatsNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="validateWrongCredentials">validateWrongCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="validateWrongCredentials">validateWrongCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="validateWrongCredentials">validateWrongCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MyTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-MyTestSuite" class="hide-methods skipped suite-MyTestSuite"> (hide)</a> <!-- hide-methods skipped suite-MyTestSuite -->
+                      <a href="#" panel-name="suite-MyTestSuite" class="show-methods skipped suite-MyTestSuite"> (show)</a> <!-- show-methods skipped suite-MyTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-MyTestSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_AboutUs">validate_AboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_AboutUs">validate_AboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_HomeIcon">validate_HomeIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_HomeIcon">validate_HomeIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-MyTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyTestSuite" class="hide-methods passed suite-MyTestSuite"> (hide)</a> <!-- hide-methods passed suite-MyTestSuite -->
+                      <a href="#" panel-name="suite-MyTestSuite" class="show-methods passed suite-MyTestSuite"> (show)</a> <!-- show-methods passed suite-MyTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MyTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="addAddressTest">addAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.AddAddressTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="forgetPassword">forgetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="forgetPassword">forgetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="forgetPassword">forgetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test3@ut.com, Ashu@123)">test_ValidLogin(test3@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test2@ut.com, Ashu@123)">test_ValidLogin(test2@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test4@ut.com, Ashu@123)">test_ValidLogin(test4@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test1@ut.com, Ashu@123)">test_ValidLogin(test1@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(asgt3@qw.com, Ashu@123)">test_ValidLogin(asgt3@qw.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test4@ut.com, Ashu@123)">test_ValidLogin(test4@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test3@ut.com, Ashu@123)">test_ValidLogin(test3@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test1@ut.com, Ashu@123)">test_ValidLogin(test1@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test2@ut.com, Ashu@123)">test_ValidLogin(test2@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(asgt3@qw.com, Ashu@123)">test_ValidLogin(asgt3@qw.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(test1@ut.com, Ashu@123)">test_ValidLogin(test1@ut.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.LoginpageTest" class="method navigator-link" hash-for-method="test_ValidLogin(asgt3@qw.com, Ashu@123)">test_ValidLogin(asgt3@qw.com, Ashu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_AboutUs">validate_AboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="lumaProject.Tests.HomePageTest" class="method navigator-link" hash-for-method="validate_HomeIcon">validate_HomeIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyTestSuite" class="panel MyTestSuite">
+          <div class="suite-MyTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">lumaProject.Tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@data-bind=&apos;html: $parent.prepareMessageForHtml(message.text)&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Utility.Util.waitForElementToBeVisible(Util.java:76)
+	at pomPages.AccountCreatePage.get_actCreateSuccess(AccountCreatePage.java:92)
+	at lumaProject.Tests.CreateAccountTest.createAccount(CreateAccountTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@data-bind=&apos;html: $parent.prepareMessageForHtml(message.text)&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9da3f21f-7292-4979-b3ec-5bee389c41bd, findElement {using=xpath, value=//div[@data-bind=&apos;html: $parent.prepareMessageForHtml(message.text)&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:24887, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15464, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24887/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da3f21f-7292-4979-b3ec-5bee389c41bd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-failed -->
+          <div class="suite-MyTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">lumaProject.Tests.WhatsNewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWhatsNew">
+                  </a> <!-- validateWhatsNew -->
+                  <span class="method-name">validateWhatsNew</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWhatsNew">
+                  </a> <!-- validateWhatsNew -->
+                  <span class="method-name">validateWhatsNew</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWhatsNew">
+                  </a> <!-- validateWhatsNew -->
+                  <span class="method-name">validateWhatsNew</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-failed -->
+          <div class="suite-MyTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">lumaProject.Tests.AddAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddressTest">
+                  </a> <!-- addAddressTest -->
+                  <span class="method-name">addAddressTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Address Book] but found [Home Page]
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddressTest">
+                  </a> <!-- addAddressTest -->
+                  <span class="method-name">addAddressTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;My Account&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Utility.Util.waitForElementToBeVisible(Util.java:76)
+	at pomPages.MyaccountPage.click_myActrightLink(MyaccountPage.java:37)
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;My Account&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2bdfe2f5-3cb2-4411-8a45-e199a5f0822d, findElement {using=xpath, value=//div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:44208, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44208/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2bdfe2f5-3cb2-4411-8a45-e199a5f0822d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-failed -->
+          <div class="suite-MyTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">lumaProject.Tests.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test4@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test4@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test4@ut.com,Ashu@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Utility.Util.waitForElementToBeVisible(Util.java:76)
+	at pomPages.Loginpage.clicksignInLink(Loginpage.java:51)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test3@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test3@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test3@ut.com,Ashu@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Utility.Util.waitForElementToBeVisible(Util.java:76)
+	at pomPages.Loginpage.clicksignInLink(Loginpage.java:51)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test2@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test2@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test2@ut.com,Ashu@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;Sign Out&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=//div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;Sign Out&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.click(Unknown Source)
+	at pomPages.LogoutPage.signout_link(LogoutPage.java:42)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWrongCredentials">
+                  </a> <!-- validateWrongCredentials -->
+                  <span class="method-name">validateWrongCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWrongCredentials">
+                  </a> <!-- validateWrongCredentials -->
+                  <span class="method-name">validateWrongCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWrongCredentials">
+                  </a> <!-- validateWrongCredentials -->
+                  <span class="method-name">validateWrongCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Utility.Util.waitForElementToBeVisible(Util.java:76)
+	at pomPages.Loginpage.clicksignInLink(Loginpage.java:51)
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy35.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 25 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-failed -->
+          <div class="suite-MyTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">lumaProject.Tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_AboutUs">
+                  </a> <!-- validate_AboutUs -->
+                  <span class="method-name">validate_AboutUs</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.aventstack.extentreports.service.ExtentTestManager.createMethod(ExtentTestManager.java:53)
+	at com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter.beforeInvocation(ExtentITestListenerClassAdapter.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_AboutUs">
+                  </a> <!-- validate_AboutUs -->
+                  <span class="method-name">validate_AboutUs</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.aventstack.extentreports.service.ExtentTestManager.createMethod(ExtentTestManager.java:53)
+	at com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter.beforeInvocation(ExtentITestListenerClassAdapter.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_HomeIcon">
+                  </a> <!-- validate_HomeIcon -->
+                  <span class="method-name">validate_HomeIcon</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.aventstack.extentreports.service.ExtentTestManager.createMethod(ExtentTestManager.java:53)
+	at com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter.beforeInvocation(ExtentITestListenerClassAdapter.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_HomeIcon">
+                  </a> <!-- validate_HomeIcon -->
+                  <span class="method-name">validate_HomeIcon</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.aventstack.extentreports.service.ExtentTestManager.createMethod(ExtentTestManager.java:53)
+	at com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter.beforeInvocation(ExtentITestListenerClassAdapter.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-skipped -->
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lumaProject.Tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lumaProject.Tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_AboutUs">
+                  </a> <!-- validate_AboutUs -->
+                  <span class="method-name">validate_AboutUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_HomeIcon">
+                  </a> <!-- validate_HomeIcon -->
+                  <span class="method-name">validate_HomeIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lumaProject.Tests.AddAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddressTest">
+                  </a> <!-- addAddressTest -->
+                  <span class="method-name">addAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lumaProject.Tests.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest">
+                  </a> <!-- dummyTest -->
+                  <span class="method-name">dummyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetPassword">
+                  </a> <!-- forgetPassword -->
+                  <span class="method-name">forgetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetPassword">
+                  </a> <!-- forgetPassword -->
+                  <span class="method-name">forgetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgetPassword">
+                  </a> <!-- forgetPassword -->
+                  <span class="method-name">forgetPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test3@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test3@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test3@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test2@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test2@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test2@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test4@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test4@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test4@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test1@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test1@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test1@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(asgt3@qw.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(asgt3@qw.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(asgt3@qw.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test4@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test4@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test4@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test3@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test3@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test3@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test1@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test1@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test1@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test2@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test2@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test2@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(asgt3@qw.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(asgt3@qw.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(asgt3@qw.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(test1@ut.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(test1@ut.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(test1@ut.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ValidLogin(asgt3@qw.com, Ashu@123)">
+                  </a> <!-- test_ValidLogin(asgt3@qw.com, Ashu@123) -->
+                  <span class="method-name">test_ValidLogin</span>
+                  <span class="parameters">(asgt3@qw.com,Ashu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+        </div> <!-- panel MyTestSuite -->
+        <div panel-name="test-xml-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;MyTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;uitest_Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;lumaProject.Tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.WhatsNewTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.LoginpageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.AddAddressTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- uitest_Chrome --&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;uitest_firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;lumaProject.Tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.WhatsNewTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.LoginpageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.AddAddressTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- uitest_firefox --&gt;
+  &lt;test thread-count=&quot;10&quot; parallel=&quot;tests&quot; name=&quot;uitest_edge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;lumaProject.Tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.WhatsNewTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.LoginpageTest&quot;/&gt;
+      &lt;class name=&quot;lumaProject.Tests.AddAddressTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- uitest_edge --&gt;
+&lt;/suite&gt; &lt;!-- MyTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">uitest_Chrome (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">uitest_firefox (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">uitest_edge (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addAddressTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dummyTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_ValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateWhatsNew</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateWrongCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_AboutUs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_HomeIcon</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyTestSuite');
+function tableData_MyTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAccount')
+data.setCell(0, 2, 'lumaProject.Tests.CreateAccountTest')
+data.setCell(0, 3, 44668);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addAddressTest')
+data.setCell(1, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(1, 3, 39313);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateWrongCredentials')
+data.setCell(2, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(2, 3, 30490);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_ValidLogin')
+data.setCell(3, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(3, 3, 30432);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_ValidLogin')
+data.setCell(4, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(4, 3, 30026);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addAddressTest')
+data.setCell(5, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(5, 3, 29731);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createAccount')
+data.setCell(6, 2, 'lumaProject.Tests.CreateAccountTest')
+data.setCell(6, 3, 17424);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addAddressTest')
+data.setCell(7, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(7, 3, 17029);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createAccount')
+data.setCell(8, 2, 'lumaProject.Tests.CreateAccountTest')
+data.setCell(8, 3, 16517);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_ValidLogin')
+data.setCell(9, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(9, 3, 14375);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateWhatsNew')
+data.setCell(10, 2, 'lumaProject.Tests.WhatsNewTest')
+data.setCell(10, 3, 14125);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_ValidLogin')
+data.setCell(11, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(11, 3, 14070);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_ValidLogin')
+data.setCell(12, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(12, 3, 14056);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_ValidLogin')
+data.setCell(13, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(13, 3, 13417);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_ValidLogin')
+data.setCell(14, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(14, 3, 13216);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_ValidLogin')
+data.setCell(15, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(15, 3, 12603);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_ValidLogin')
+data.setCell(16, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(16, 3, 10878);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_ValidLogin')
+data.setCell(17, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(17, 3, 9806);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_ValidLogin')
+data.setCell(18, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(18, 3, 9680);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_ValidLogin')
+data.setCell(19, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(19, 3, 9503);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateWrongCredentials')
+data.setCell(20, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(20, 3, 9295);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_ValidLogin')
+data.setCell(21, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(21, 3, 9268);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_ValidLogin')
+data.setCell(22, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(22, 3, 9069);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'forgetPassword')
+data.setCell(23, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(23, 3, 8895);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_ValidLogin')
+data.setCell(24, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(24, 3, 8799);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'forgetPassword')
+data.setCell(25, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(25, 3, 6708);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateWhatsNew')
+data.setCell(26, 2, 'lumaProject.Tests.WhatsNewTest')
+data.setCell(26, 3, 6112);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateWrongCredentials')
+data.setCell(27, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(27, 3, 5501);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateWhatsNew')
+data.setCell(28, 2, 'lumaProject.Tests.WhatsNewTest')
+data.setCell(28, 3, 4652);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'forgetPassword')
+data.setCell(29, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(29, 3, 4279);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validate_HomeIcon')
+data.setCell(30, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(30, 3, 2261);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validate_AboutUs')
+data.setCell(31, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(31, 3, 2015);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'dummyTest')
+data.setCell(32, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'dummyTest')
+data.setCell(33, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'dummyTest')
+data.setCell(34, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'dummyTest')
+data.setCell(35, 2, 'lumaProject.Tests.LoginpageTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'dummyTest')
+data.setCell(36, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'dummyTest')
+data.setCell(37, 2, 'lumaProject.Tests.AddAddressTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'validate_AboutUs')
+data.setCell(38, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'validate_HomeIcon')
+data.setCell(39, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'validate_HomeIcon')
+data.setCell(40, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'validate_AboutUs')
+data.setCell(41, 2, 'lumaProject.Tests.HomePageTest')
+data.setCell(41, 3, 0);
+window.suiteTableData['MyTestSuite']= { tableData: data, tableDiv: 'times-div-MyTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-MyTestSuite">
+              </div> <!-- times-div-MyTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lumaProject.Tests.CreateAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lumaProject.Tests.WhatsNewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lumaProject.Tests.AddAddressTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">lumaProject.Tests.LoginpageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.HomePageTest.validate_AboutUs(), edge)</span>
+                <span class="method-start">30440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_AboutUs</span>
+                <span class="method-start">30476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.HomePageTest.validate_AboutUs(), chrome)</span>
+                <span class="method-start">31371 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_AboutUs</span>
+                <span class="method-start">31382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">31390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_HomeIcon</span>
+                <span class="method-start">31397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">31402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">31404 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">31404 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validate_AboutUs status=SUCCESS method=HomePageTest.validate_AboutUs()[pri:0, insta...)</span>
+                <span class="method-start">32496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.HomePageTest.validate_HomeIcon(), edge)</span>
+                <span class="method-start">32499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_HomeIcon</span>
+                <span class="method-start">32504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validate_HomeIcon status=SUCCESS method=HomePageTest.validate_HomeIcon()[pri:0, ins...)</span>
+                <span class="method-start">34766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">34767 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">35894 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.HomePageTest.validate_AboutUs(), firefox)</span>
+                <span class="method-start">36971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_AboutUs</span>
+                <span class="method-start">36978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_HomeIcon</span>
+                <span class="method-start">36997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">36999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">37000 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">37001 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.WhatsNewTest.validateWhatsNew(), edge)</span>
+                <span class="method-start">42631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">42636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWhatsNew</span>
+                <span class="method-start">42642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWhatsNew status=FAILURE method=WhatsNewTest.validateWhatsNew()[pri:0, insta...)</span>
+                <span class="method-start">47297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48008 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">49227 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.CreateAccountTest.createAccount(), edge)</span>
+                <span class="method-start">56607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">56610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount</span>
+                <span class="method-start">56619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.WhatsNewTest.validateWhatsNew(), chrome)</span>
+                <span class="method-start">59080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">59084 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWhatsNew</span>
+                <span class="method-start">59087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWhatsNew status=FAILURE method=WhatsNewTest.validateWhatsNew()[pri:0, insta...)</span>
+                <span class="method-start">65203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">68766 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">70061 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createAccount status=SUCCESS method=CreateAccountTest.createAccount()[pri:0, instan...)</span>
+                <span class="method-start">74044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">74046 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">75007 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.CreateAccountTest.createAccount(), chrome)</span>
+                <span class="method-start">75126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">75128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount</span>
+                <span class="method-start">75132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.WhatsNewTest.validateWhatsNew(), firefox)</span>
+                <span class="method-start">79982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">79984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWhatsNew</span>
+                <span class="method-start">79985 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createAccount status=SUCCESS method=CreateAccountTest.createAccount()[pri:0, instan...)</span>
+                <span class="method-start">91651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">91653 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">92772 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.WhatsNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWhatsNew status=FAILURE method=WhatsNewTest.validateWhatsNew()[pri:0, insta...)</span>
+                <span class="method-start">94113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">95265 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">98784 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.dummyTest(), edge)</span>
+                <span class="method-start">101627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">101629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">101633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=LoginpageTest.dummyTest()[pri:0, instance:lumaProje...)</span>
+                <span class="method-start">101637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.forgetPassword(), edge)</span>
+                <span class="method-start">101640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">101642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgetPassword</span>
+                <span class="method-start">101646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=forgetPassword status=SUCCESS method=LoginpageTest.forgetPassword()[pri:0, instance...)</span>
+                <span class="method-start">108355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), edge)</span>
+                <span class="method-start">110720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">110721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(asgt3@qw.com, Ashu@123)</span>
+                <span class="method-start">110724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.dummyTest(), chrome)</span>
+                <span class="method-start">119335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">119336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">119341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=LoginpageTest.dummyTest()[pri:0, instance:lumaProje...)</span>
+                <span class="method-start">119343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.forgetPassword(), chrome)</span>
+                <span class="method-start">119344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">119345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgetPassword</span>
+                <span class="method-start">119348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=forgetPassword status=SUCCESS method=LoginpageTest.forgetPassword()[pri:0, instance...)</span>
+                <span class="method-start">123627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), chro...)</span>
+                <span class="method-start">123719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">123720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(asgt3@qw.com, Ashu@123)</span>
+                <span class="method-start">123723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">124146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), edge)</span>
+                <span class="method-start">124148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">124150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test1@ut.com, Ashu@123)</span>
+                <span class="method-start">124153 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.CreateAccountTest.createAccount(), firefox)</span>
+                <span class="method-start">134139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">134143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccount</span>
+                <span class="method-start">134148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">137780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), chro...)</span>
+                <span class="method-start">137781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">137783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test1@ut.com, Ashu@123)</span>
+                <span class="method-start">137786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">138528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), edge)</span>
+                <span class="method-start">138530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">138531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test2@ut.com, Ashu@123)</span>
+                <span class="method-start">138533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">150391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), chro...)</span>
+                <span class="method-start">150392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">150393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test2@ut.com, Ashu@123)</span>
+                <span class="method-start">150396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">152605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), edge)</span>
+                <span class="method-start">152608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">152609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test3@ut.com, Ashu@123)</span>
+                <span class="method-start">152616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">160203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), chro...)</span>
+                <span class="method-start">160204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">160205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test3@ut.com, Ashu@123)</span>
+                <span class="method-start">160207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">162297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), edge)</span>
+                <span class="method-start">162298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">162299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test4@ut.com, Ashu@123)</span>
+                <span class="method-start">162300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">169277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), chro...)</span>
+                <span class="method-start">169278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">169279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test4@ut.com, Ashu@123)</span>
+                <span class="method-start">169281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">171569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.validateWrongCredentials(), edge)</span>
+                <span class="method-start">171570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">171571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWrongCredentials</span>
+                <span class="method-start">171572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWrongCredentials status=FAILURE method=LoginpageTest.validateWrongCredentia...)</span>
+                <span class="method-start">177074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">177236 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.AddAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">178066 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">178081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.validateWrongCredentials(), chrome)</span>
+                <span class="method-start">178082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">178082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWrongCredentials</span>
+                <span class="method-start">178084 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createAccount status=FAILURE method=CreateAccountTest.createAccount()[pri:0, instan...)</span>
+                <span class="method-start">178827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">178941 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">182533 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.AddAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.addAddressTest(), edge)</span>
+                <span class="method-start">183701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">183703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addAddressTest</span>
+                <span class="method-start">183713 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWrongCredentials status=FAILURE method=LoginpageTest.validateWrongCredentia...)</span>
+                <span class="method-start">187381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">187861 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.AddAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">189181 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.addAddressTest(), chrome)</span>
+                <span class="method-start">196894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">196900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAddressTest</span>
+                <span class="method-start">196905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addAddressTest status=SUCCESS method=AddAddressTest.addAddressTest()[pri:0, instanc...)</span>
+                <span class="method-start">213445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.dummyTest(), edge)</span>
+                <span class="method-start">213449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">213451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">213455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=AddAddressTest.dummyTest()[pri:0, instance:lumaProj...)</span>
+                <span class="method-start">213457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">213458 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addAddressTest status=FAILURE method=AddAddressTest.addAddressTest()[pri:0, instanc...)</span>
+                <span class="method-start">213935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.dummyTest(), chrome)</span>
+                <span class="method-start">214578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">214579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">214581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=AddAddressTest.dummyTest()[pri:0, instance:lumaProj...)</span>
+                <span class="method-start">214581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">214582 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.dummyTest(), firefox)</span>
+                <span class="method-start">218699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">218700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">218701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=LoginpageTest.dummyTest()[pri:0, instance:lumaProje...)</span>
+                <span class="method-start">218702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.forgetPassword(), firefox)</span>
+                <span class="method-start">218704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgetPassword</span>
+                <span class="method-start">218705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">218705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=forgetPassword status=SUCCESS method=LoginpageTest.forgetPassword()[pri:0, instance...)</span>
+                <span class="method-start">227600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), fire...)</span>
+                <span class="method-start">227659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">227662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(asgt3@qw.com, Ashu@123)</span>
+                <span class="method-start">227665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">240882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), fire...)</span>
+                <span class="method-start">240883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">240884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ValidLogin(test1@ut.com, Ashu@123)</span>
+                <span class="method-start">240885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=SUCCESS method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">251764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), fire...)</span>
+                <span class="method-start">251765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">251766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_ValidLogin(test2@ut.com, Ashu@123)</span>
+                <span class="method-start">251768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=FAILURE method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">261274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), fire...)</span>
+                <span class="method-start">261622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">261623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_ValidLogin(test3@ut.com, Ashu@123)</span>
+                <span class="method-start">261625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=FAILURE method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">291653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.test_ValidLogin(java.lang.String,java.lang.String), fire...)</span>
+                <span class="method-start">291845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">291846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_ValidLogin(test4@ut.com, Ashu@123)</span>
+                <span class="method-start">291846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_ValidLogin status=FAILURE method=LoginpageTest.test_ValidLogin(java.lang.Strin...)</span>
+                <span class="method-start">322281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.LoginpageTest.validateWrongCredentials(), firefox)</span>
+                <span class="method-start">322490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWrongCredentials</span>
+                <span class="method-start">322491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">322491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateWrongCredentials status=FAILURE method=LoginpageTest.validateWrongCredentia...)</span>
+                <span class="method-start">352983 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">353188 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.AddAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">354329 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.addAddressTest(), firefox)</span>
+                <span class="method-start">384991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">384992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAddressTest</span>
+                <span class="method-start">384994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addAddressTest status=FAILURE method=AddAddressTest.addAddressTest()[pri:0, instanc...)</span>
+                <span class="method-start">424308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void lumaProject.Tests.AddAddressTest.dummyTest(), firefox)</span>
+                <span class="method-start">424521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">424522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest</span>
+                <span class="method-start">424522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dummyTest status=SUCCESS method=AddAddressTest.dummyTest()[pri:0, instance:lumaProj...)</span>
+                <span class="method-start">424523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">424524 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lumaProject.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">426022 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

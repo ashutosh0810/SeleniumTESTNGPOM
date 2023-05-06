@@ -1,0 +1,13 @@
+2023-05-02 13:27:39.727 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:27:39.848 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+2023-05-02 13:27:39.922 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on About us logo  
+2023-05-02 13:27:41.858 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User check the about us message 
+2023-05-02 13:27:41.882 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Validating the about us 
+2023-05-02 13:27:41.904 [TestNG-tests-1] INFO  pomPages.HomePage -  User read the about us description 
+2023-05-02 13:27:42.017 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Number of States are 230stores
+2023-05-02 13:27:42.018 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Number of Stores  are 43states
+2023-05-02 13:27:42.110 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+2023-05-02 13:27:43.397 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Validating the home page 
+2023-05-02 13:27:54.194 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:27:54.199 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+2023-05-02 13:27:56.983 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  Validating the number of new Hoddies in AUT 

@@ -1,0 +1,36 @@
+2023-05-02 16:12:13.684 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 16:12:16.464 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:12:16.823 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:12:17.061 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:12:20.414 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+2023-05-02 16:12:20.516 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+2023-05-02 16:12:22.479 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+2023-05-02 16:12:22.541 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+2023-05-02 16:12:24.052 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:12:24.329 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:12:24.460 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:12:28.991 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+2023-05-02 16:12:29.047 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+2023-05-02 16:12:30.765 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+2023-05-02 16:12:30.874 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+2023-05-02 16:12:32.783 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:12:33.102 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:12:33.286 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:12:36.790 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+2023-05-02 16:12:36.871 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+2023-05-02 16:12:38.941 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+2023-05-02 16:12:39.010 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+2023-05-02 16:12:40.570 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:12:40.813 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:12:41.011 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:12:44.819 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+2023-05-02 16:12:44.837 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+2023-05-02 16:12:46.934 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+2023-05-02 16:12:47.025 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+2023-05-02 16:12:48.407 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:12:48.645 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:12:48.857 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:12:52.358 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+2023-05-02 16:12:52.397 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+2023-05-02 16:12:54.333 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+2023-05-02 16:12:54.434 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 

@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="428.533" tests="56" errors="0" skipped="16" failures="14">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ashutoshsingh03\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\target\test-classes;C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\target\classes;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.2\selenium-java-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.2\selenium-chrome-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.2\selenium-chromium-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.2\selenium-devtools-v106-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.2\selenium-devtools-v107-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.2\selenium-devtools-v108-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.2\selenium-devtools-v85-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.2\selenium-edge-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.2\selenium-firefox-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.2\selenium-ie-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ashutoshsingh03\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ashutoshsingh03\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ashutoshsingh03\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.2\selenium-safari-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ashutoshsingh03\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ashutoshsingh03\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ashutoshsingh03\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\ashutoshsingh03\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ashutoshsingh03\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ashutoshsingh03\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\ashutoshsingh03\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ashutoshsingh03\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi-ooxml\5.2.0\poi-ooxml-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.0\poi-ooxml-lite-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\extentreports-testng-adapter\1.2.0\extentreports-testng-adapter-1.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\klov-reporter\5.0.0\klov-reporter-5.0.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ashutoshsingh03\AppData\Local\Temp\surefire17011622932260525541\surefirebooter13274251190829669317.jar C:\Users\ashutoshsingh03\AppData\Local\Temp\surefire17011622932260525541 2023-05-02T18-46-18_479-jvmRun1 surefire2344187300327424056tmp surefire_014401312484821519567tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\target\test-classes;C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2\target\classes;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.2\selenium-java-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.2\selenium-chrome-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.2\selenium-chromium-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.2\selenium-devtools-v106-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.2\selenium-devtools-v107-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.2\selenium-devtools-v108-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.2\selenium-devtools-v85-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.2\selenium-edge-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.2\selenium-firefox-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.2\selenium-ie-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\ashutoshsingh03\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\ashutoshsingh03\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ashutoshsingh03\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ashutoshsingh03\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ashutoshsingh03\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ashutoshsingh03\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.2\selenium-safari-driver-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ashutoshsingh03\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ashutoshsingh03\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ashutoshsingh03\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\ashutoshsingh03\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ashutoshsingh03\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ashutoshsingh03\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ashutoshsingh03\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\ashutoshsingh03\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ashutoshsingh03\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi-ooxml\5.2.0\poi-ooxml-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ashutoshsingh03\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.0\poi-ooxml-lite-5.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\extentreports-testng-adapter\1.2.0\extentreports-testng-adapter-1.2.0.jar;C:\Users\ashutoshsingh03\.m2\repository\com\aventstack\klov-reporter\5.0.0\klov-reporter-5.0.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ashutoshsingh03\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\ashutoshsingh03\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ashutoshsingh03"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ashutoshsingh03\AppData\Local\Temp\surefire17011622932260525541\surefirebooter13274251190829669317.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="webdriver.edge.driver" value="C:\Users\ashutoshsingh03\.cache\selenium\msedgedriver\win64\112.0.1722.68\msedgedriver.exe"/>
+    <property name="user.name" value="ashutoshsingh03"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ashutoshsingh03\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASHUTO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\ashutoshsingh03\Documents\NAGP\Demo cod\NAGP_Session2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\ashutoshsingh03\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ashutoshsingh03\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ashutoshsingh03\bin;C:\Program Files\Python311\Scripts;C:\Program Files\Python311;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ashutoshsingh03\Documents\Software\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\PuTTY;C:\hadoop\hadoop\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\ashutoshsingh03\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;C:\Users\ashutoshsingh03\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="beforeMethod[public void lumaProject.Tests.HomePageTest.validate_AboutUs(), chrome](0)" classname="lumaProject.Tests.HomePageTest" time="0.889">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+    <system-out><![CDATA[18:46:51.917 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+18:46:51.974 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+18:46:52.116 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on About us logo  
+18:46:52.860 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.nio.file.FileAlreadyExistsException: test-output\Archived test results\Screenshots
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:351)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:292)
+	at java.base/java.nio.file.Files.move(Files.java:1426)
+	at Utility.ExtentManager.lambda$moveCurrentToArchive$0(ExtentManager.java:41)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at Utility.ExtentManager.moveCurrentToArchive(ExtentManager.java:39)
+	at Utility.ExtentManager.createExtentReports(ExtentManager.java:23)
+	at base.BaseTest.beforeSuite(BaseTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 25248
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations forS tsaurgtgeisntgi oMnisc roons okfete pEdigneg  WCehrboDrimveerD r1i1v2e.r0 .s1a7fe22..6
+8 (82d34b2459d3c3260996f9cc1f0fb469816304b0) on port 20242
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+ChromeDriver was started successfully.
+Microsoft Edge WebDriver was started successfully.
+1683033385129	geckodriver	INFO	Listening on 127.0.0.1:27006
+1683033385650	mozrunner::runner	INFO	Running command: "C:\\Users\\ashutoshsingh03\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debuggin ... ocalhost:8688/,http://[::1]:8688/" "-no-remote" "-profile" "C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileUlFS9M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+May 02, 2023 6:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+May 02, 2023 6:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+1683033389223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683033389242	Marionette	INFO	Listening on port 52299
+Read port: 52299
+WebDriver BiDi listening on ws://127.0.0.1:8688
+1683033390023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileUlFS9M\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:8688/devtools/browser/9a5a305e-8e8c-4459-9098-d9e2cebbc215
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validate_AboutUs" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validate_AboutUs" classname="lumaProject.Tests.HomePageTest" time="1.102">
+    <system-out><![CDATA[18:46:53.605 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  User check the about us message 
+18:46:53.720 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  Validating the about us 
+18:46:53.790 [TestNG-tests-3] INFO  pomPages.HomePage -  User read the about us description 
+18:46:53.980 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  Number of States are 230stores
+18:46:53.981 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  Number of Stores  are 43states
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 17688
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validate_AboutUs" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validate_HomeIcon" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validate_HomeIcon" classname="lumaProject.Tests.HomePageTest" time="2.261">
+    <system-out><![CDATA[18:46:54.064 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:46:56.149 [TestNG-tests-3] INFO  lumaProject.Tests.HomePageTest -  Validating the home page 
+]]></system-out>
+    <system-err><![CDATA[May 02, 2023 6:46:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+]]></system-err>
+  </testcase>
+  <testcase name="validate_HomeIcon" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="lumaProject.Tests.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod[public void lumaProject.Tests.HomePageTest.validate_AboutUs(), firefox](0)" classname="lumaProject.Tests.HomePageTest" time="4.475">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
+    <system-out><![CDATA[18:46:58.459 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 112.0.1722.68 (82d34b2459d3c3260996f9cc1f0fb469816304b0) on port 15109
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateWhatsNew" classname="lumaProject.Tests.WhatsNewTest" time="4.677">
+    <failure message="expected [15 Items] but found [12 Items]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+]]></failure>
+    <system-out><![CDATA[18:47:04.118 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+18:47:04.134 [TestNG-tests-3] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+18:47:08.130 [TestNG-tests-3] INFO  lumaProject.Tests.WhatsNewTest -  Validating the number of new Hoddies in AUT 
+]]></system-out>
+    <system-err><![CDATA[May 02, 2023 6:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+1683033426341	geckodriver	INFO	Listening on 127.0.0.1:35396
+1683033426813	mozrunner::runner	INFO	Running command: "C:\\Users\\ashutoshsingh03\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debuggin ... alhost:31737/,http://[::1]:31737/" "-no-remote" "-profile" "C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileNQGNGU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683033428484	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683033428515	Marionette	INFO	Listening on port 52455
+Read port: 52455
+]]></system-err>
+  </testcase>
+  <testcase name="validateWhatsNew" classname="lumaProject.Tests.WhatsNewTest" time="6.119">
+    <failure message="expected [15 Items] but found [12 Items]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+]]></failure>
+    <system-out><![CDATA[18:47:18.095 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+18:47:18.111 [TestNG-tests-3] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 
+18:47:19.453 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User click on create account link 
+18:47:20.569 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+18:47:20.579 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+18:47:23.937 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User enter the first name  
+sfuU9uH0cEqq
+18:47:24.136 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User enter the last name  
+Z8V3Ax8V
+18:47:24.418 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User enter the email for the registration  
+JO1iYG454
+18:47:24.997 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User enter the password for the registration  
+QiYMwRCY1
+18:47:25.650 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User enter the confirm password  for the registration  
+18:47:25.919 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  Validating the number of new Hoddies in AUT 
+18:47:26.169 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  User click the create account button  
+]]></system-out>
+    <system-err><![CDATA[WebDriver BiDi listening on ws://127.0.0.1:31737
+1683033429264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Starting Microsoft Edge WebDriver 112.0.1722.68 (82d34b2459d3c3260996f9cc1f0fb469816304b0) on port 39413
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileNQGNGU\\search.json.mozlz4", (void 0)))
+May 02, 2023 6:47:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:31737/devtools/browser/5c1afb0e-ae31-45f5-ab37-f8cce01d1bf6
+]]></system-err>
+  </testcase>
+  <testcase name="validateWhatsNew" classname="lumaProject.Tests.WhatsNewTest" time="14.119">
+    <failure message="expected [15 Items] but found [12 Items]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+]]></failure>
+    <system-out><![CDATA[18:47:55.260 [TestNG-tests-2] INFO  lumaProject.Tests.WhatsNewTest -  Validating the number of new Hoddies in AUT 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 8148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="createAccount" classname="lumaProject.Tests.CreateAccountTest" time="14.964">
+    <system-out><![CDATA[18:47:31.201 [TestNG-tests-3] INFO  pomPages.AccountCreatePage -  submit_btn click successfull  
+18:47:31.201 [TestNG-tests-3] INFO  lumaProject.Tests.CreateAccountTest -  accountCreatePage.click_createActBtn() successfull 
+18:47:32.047 [TestNG-tests-3] INFO  lumaProject.Tests.CreateAccountTest - User click logout icon 
+18:47:35.532 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 24163
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 02, 2023 6:47:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+]]></system-err>
+  </testcase>
+  <testcase name="createAccount" classname="lumaProject.Tests.CreateAccountTest" time="11.668">
+    <system-out><![CDATA[18:47:36.616 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+18:47:36.625 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 
+18:47:36.707 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User click on create account link 
+18:47:41.471 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+18:47:41.478 [TestNG-tests-2] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+18:47:41.631 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the first name  
+SS7tVqW3kV2k
+18:47:42.143 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the last name  
+AjNjTBdr
+18:47:42.902 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the email for the registration  
+vjLk5KDkk
+18:47:43.399 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the password for the registration  
+YCc2Yo6g6
+18:47:43.875 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the confirm password  for the registration  
+18:47:44.170 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User click the create account button  
+18:47:48.566 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  submit_btn click successfull  
+18:47:48.566 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest -  accountCreatePage.click_createActBtn() successfull 
+18:47:49.351 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest - User click logout icon 
+18:47:53.138 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 112.0.1722.68 (82d34b2459d3c3260996f9cc1f0fb469816304b0) on port 16505
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+May 02, 2023 6:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/core/renderer/layout
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Customer/js/customer-data
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Persistent/js/view/customer-data-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/core/renderer/types
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="createAccount" classname="lumaProject.Tests.CreateAccountTest" time="0.749">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@data-bind=&apos;html: $parent.prepareMessageForHtml(message.text)&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.CreateAccountTest.createAccount(CreateAccountTest.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9da3f21f-7292-4979-b3ec-5bee389c41bd, findElement {using=xpath, value=//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:24887, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15464, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24887/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da3f21f-7292-4979-b3ec-5bee389c41bd
+	at lumaProject.Tests.CreateAccountTest.createAccount(CreateAccountTest.java:54)
+]]></failure>
+    <system-out><![CDATA[18:49:19.575 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 112.0.1722.68 (82d34b2459d3c3260996f9cc1f0fb469816304b0) on port 41530
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.LoginpageTest" time="0">
+    <system-out><![CDATA[18:48:03.116 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+ Testing  Dummy 
+]]></system-out>
+    <system-err><![CDATA[1683033476782	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:52611
+1683033476800	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+May 02, 2023 6:47:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+1683033476858	Marionette	INFO	Stopped listening on port 52455
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resourceJ://agvraeS/cript emrodurloers:/ orsefile/ossfoiulrec_ea:s/ync_fro/ngtr.jes/mm:o1d5u4l8e:s2/8As
+y@nrceSshouutrdcoew:n/./sgyrse./mmjosd,u lleisn/eo s7f2i7le:/o sEfrirloer_:a sPyhnac_sfer o"nptr.josmf:i1l5e68-:b1e6fo
+r@er-ecshoaunrgcee":/ /igsr ef/imnoidsuhleeds,/ oistf ile.jsmi:s1 2to:o3 0la
+t@eres otuor cree:g/i/sgtreer/ commploedtuiloens /cToenldeimteitorny S"tOoSr.aFgiel.es:y sf.lmujssh: 1I0/:O2 8qu
+_eucheedc kbPeefnodre pinrgoPfiinlges@BreefsoourrecCeh:a/n/gger"e/
+modules/TelemetrySend.sJyasv.majSsc:r8i6p3t: 1e7rr
+osre:t urpe@sroeusrocuer:c/e/:g/r/ger/em/omdoudluelse/sA/sTyenlecSmheuttrdyoSwenn.ds.yssy.s.mmjjss,: 8l0i3n:e1 872
+setup@7r:e sEorurrocre:: /P/hgarsee/ m"opdrouflielse/-before-change" is finished, iTte liesm ettoroy Sleantde. styos.m jrse:2g4i1s:t3e0r 
+csoemtpulpeTteiloenm etcronyd/itthiiosn. _"dOeSl.ayFeidlIen:i tfTlausskh< @Ir/esOo uqruceeu:e/d/ gbreef/omrodeu lperso/fTeilleemBeetfroyrCeoCnhtarnoglel"erP
+aJraevnatS.csryisp.tm jesr:r8o2r4:: 3r6es
+ooubrsceer:ve/@/rgrees/omuordcuel:e/s//greA/symnocdSuhluetsd/oAwsny.nscyShs.umtjdos,w nl.isnyes .m7j2s:576:176
+
+: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1683033481800	geckodriver	INFO	Listening on 127.0.0.1:7689
+1683033482299	mozrunner::runner	INFO	Running command: "C:\\Users\\ashutoshsingh03\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debuggin ... alhost:24887/,http://[::1]:24887/" "-no-remote" "-profile" "C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileWQe86z"
+]]></system-err>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.LoginpageTest" time="0.001">
+    <system-out><![CDATA[18:48:15.000 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:15.432 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:15.717 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:20.824 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+ Testing  Dummy 
+]]></system-out>
+    <system-err><![CDATA[console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileWQe86z\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:24887/devtools/browser/f58d978a-3d43-4208-bb6e-487bd15c976a
+]]></system-err>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.LoginpageTest" time="0">
+    <system-out><![CDATA[18:50:00.189 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+ Testing  Dummy 
+]]></system-out>
+  </testcase>
+  <testcase name="forgetPassword" classname="lumaProject.Tests.LoginpageTest" time="6.712">
+    <system-out><![CDATA[18:48:03.138 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:48:06.173 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on forget password link  
+18:48:08.867 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User enters password on the forget password page  
+wFsj
+18:48:09.454 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click  reset password button 
+]]></system-out>
+    <system-err><![CDATA[console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683033484149	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683033484166	Marionette	INFO	Listening on port 52633
+Read port: 52633
+WebDriver BiDi listening on ws://127.0.0.1:24887
+1683033485119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+  </testcase>
+  <testcase name="forgetPassword" classname="lumaProject.Tests.LoginpageTest" time="4.28">
+    <system-out><![CDATA[18:48:20.839 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:48:21.366 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:22.315 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on forget password link  
+18:48:22.741 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:48:23.173 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:48:24.444 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User enters password on the forget password page  
+OciM
+18:48:24.692 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click  reset password button 
+]]></system-out>
+  </testcase>
+  <testcase name="forgetPassword" classname="lumaProject.Tests.LoginpageTest" time="8.895">
+    <system-out><![CDATA[18:50:00.197 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:50:03.428 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on forget password link  
+18:50:06.137 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User enters password on the forget password page  
+bHmJ
+18:50:06.420 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click  reset password button 
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/Magento_Translation/js/mage-translation-dictionary.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Persistent/js/view/customer-data-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Customer/js/customer-data
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/view/messages
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[asgt3@qw.com, Ashu@123](1)" classname="lumaProject.Tests.LoginpageTest" time="0.42">
+    <system-out><![CDATA[18:48:25.450 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:48:25.452 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:48:25.631 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[asgt3@qw.com, Ashu@123](1)" classname="lumaProject.Tests.LoginpageTest" time="3.637">
+    <system-out><![CDATA[18:48:27.248 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:27.535 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:27.726 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:28.770 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:29.081 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:29.295 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:33.078 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:33.649 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:35.629 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+18:48:35.640 [TestNG-tests-2] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 
+18:48:36.142 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:48:36.156 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User click on create account link 
+18:48:36.814 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:48:37.079 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:48:37.304 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:48:39.140 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:48:39.140 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:48:39.269 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/widget
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/modal/modal
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: underscore
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate-inline
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/apply/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery-migrate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/responsive
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[asgt3@qw.com, Ashu@123](1)" classname="lumaProject.Tests.LoginpageTest" time="13.219">
+    <system-out><![CDATA[18:50:11.596 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:50:11.753 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:50:11.831 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:50:16.821 [TestNG-tests-2] INFO  pomPages.HomePage -  User clicking on home logo 
+18:50:20.505 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:50:20.983 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:50:22.337 [TestNG-tests-2] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:50:22.337 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:50:22.371 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Customer/js/customer-data
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/core/renderer/layout
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Persistent/js/view/customer-data-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/core/renderer/types
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/storage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/view/messages
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/keyboard
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/mage-init
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/extender/bound-nodes
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/after-render
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/scope
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/console-logger
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/template/observable_source
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/i18n
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/resizable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/template/renderer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/range
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/autoselect
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/optgroup
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[test1@ut.com, Ashu@123](2)" classname="lumaProject.Tests.LoginpageTest" time="0.741">
+    <system-out><![CDATA[18:48:39.893 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:48:39.894 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:48:40.018 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test1@ut.com, Ashu@123](2)" classname="lumaProject.Tests.LoginpageTest" time="11.859">
+    <system-out><![CDATA[18:48:42.269 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:42.710 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:43.075 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:43.347 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:43.423 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:43.777 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:47.264 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:48.939 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:49.224 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User enter the first name  
+pGa6WRh3hVEV
+18:48:49.300 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User enter the last name  
+SRrk0k58
+18:48:49.421 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User enter the email for the registration  
+rJKBIiI4f
+18:48:49.547 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User enter the password for the registration  
+dlNkKBCKf
+18:48:49.713 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User enter the confirm password  for the registration  
+18:48:49.713 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:48:49.784 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  User click the create account button  
+18:48:50.160 [TestNG-tests-2] INFO  pomPages.AccountCreatePage -  submit_btn click successfull  
+18:48:50.160 [TestNG-tests-2] INFO  lumaProject.Tests.CreateAccountTest -  accountCreatePage.click_createActBtn() successfull 
+18:48:50.284 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:48:50.746 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:48:51.121 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:48:51.790 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:48:51.790 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:48:51.879 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[test1@ut.com, Ashu@123](2)" classname="lumaProject.Tests.LoginpageTest" time="10.88">
+    <system-out><![CDATA[18:50:23.478 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:50:23.561 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:50:23.613 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:50:27.979 [TestNG-tests-2] INFO  pomPages.HomePage -  User clicking on home logo 
+18:50:30.413 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:50:30.831 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:50:33.172 [TestNG-tests-2] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:50:33.172 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:50:33.254 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/widget
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate-inline
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/responsive
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: domReady
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/modal/confirm
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/template
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/apply/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/apply/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: underscore
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: text
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: matchMedia
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/dialog
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/smart-keyboard-handler
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/ie-class-fixer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery-migrate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery-ui
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/modal/modal
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/mage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/tabs
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate-inline
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/dataPost
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/responsive
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/mage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: domReady
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/apply/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/template
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery-migrate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/mage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/form/adapter/buttons
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js, line 1: Error: [object Object]
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/model/messages
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[test2@ut.com, Ashu@123](3)" classname="lumaProject.Tests.LoginpageTest" time="2.208">
+    <system-out><![CDATA[18:48:53.423 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:48:53.423 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:48:54.093 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test2@ut.com, Ashu@123](3)" classname="lumaProject.Tests.LoginpageTest" time="7.585">
+    <system-out><![CDATA[18:48:54.596 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:54.991 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:55.215 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:55.974 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:48:56.280 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:48:56.428 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:48:58.652 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+18:48:59.635 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:49:00.049 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:49:00.412 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:49:01.444 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:49:01.540 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:49:01.540 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:49:01.693 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test2@ut.com, Ashu@123](3)" classname="lumaProject.Tests.LoginpageTest" time="9.506">
+    <failure message="Unable to locate element: //div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;Sign Out&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=//div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;Sign Out&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@aria-hidden='false']//a[normalize-space()='Sign Out']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=//div[@aria-hidden='false']//a[normalize-space()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:85)
+]]></failure>
+    <system-out><![CDATA[18:50:34.841 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:50:34.941 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:50:35.070 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:50:39.961 [TestNG-tests-2] INFO  pomPages.HomePage -  User clicking on home logo 
+18:50:40.826 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:50:41.153 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:50:41.257 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  Logout Unsuccessfull by clicking right link  RETRY 
+18:50:41.277 [TestNG-tests-2] INFO  pomPages.HomePage -  User clicking on home logo 
+18:50:42.669 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/view/messages
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/entry
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/mage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate-inline
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/responsive
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/dataPost
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/Magento_Translation/js/mage-translation-dictionary.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/collapsible
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/after-render
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/i18n
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/resizable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/simple-checked
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery-storageapi
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/utils/wrapper
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/keyboard
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/mage-init
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/mouse
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/autoselect
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/datepicker
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/scope
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/range
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/template/renderer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/console-logger
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/class
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/optgroup
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/fadeVisible
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/outer_click
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: es6-collections
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/bind-html
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/color-picker
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/staticChecked
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="test_ValidLogin[test3@ut.com, Ashu@123](4)" classname="lumaProject.Tests.LoginpageTest" time="2.09">
+    <system-out><![CDATA[18:49:01.931 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:49:03.353 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:49:03.562 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:49:03.658 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:49:03.659 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:49:03.704 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:49:03.787 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test3@ut.com, Ashu@123](4)" classname="lumaProject.Tests.LoginpageTest" time="6.977">
+    <system-out><![CDATA[18:49:05.950 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:49:06.183 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:49:06.296 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:49:07.128 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+18:49:08.209 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:49:08.577 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:49:09.664 [TestNG-tests-3] INFO  pomPages.HomePage -  User clicking on home logo 
+18:49:10.645 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:49:10.646 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:49:10.750 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:49:10.767 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test3@ut.com, Ashu@123](4)" classname="lumaProject.Tests.LoginpageTest" time="30.028">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+]]></failure>
+  </testcase>
+  <testcase name="test_ValidLogin[test4@ut.com, Ashu@123](5)" classname="lumaProject.Tests.LoginpageTest" time="2.288">
+    <system-out><![CDATA[18:49:11.018 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+18:49:12.499 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+18:49:12.850 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+18:49:12.949 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:49:12.949 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:49:13.053 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+18:49:13.059 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test4@ut.com, Ashu@123](5)" classname="lumaProject.Tests.LoginpageTest" time="6.508">
+    <system-out><![CDATA[18:49:19.497 [TestNG-tests-1] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+18:49:19.497 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout link  
+18:49:19.571 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Logout successfull by clicking right link 
+]]></system-out>
+  </testcase>
+  <testcase name="test_ValidLogin[test4@ut.com, Ashu@123](5)" classname="lumaProject.Tests.LoginpageTest" time="30.435">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+]]></failure>
+  </testcase>
+  <testcase name="validateWrongCredentials" classname="lumaProject.Tests.LoginpageTest" time="5.501">
+    <failure message="expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+]]></failure>
+    <system-out><![CDATA[18:49:13.064 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:49:14.928 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter wrong Credentials 
+JNq
+18:49:15.434 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+18:49:16.519 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+18:49:17.538 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
+18:49:17.819 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User clicked right side logout icon 
+]]></system-out>
+  </testcase>
+  <testcase name="validateWrongCredentials" classname="lumaProject.Tests.LoginpageTest" time="3.672">
+    <failure message="expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+]]></failure>
+    <system-out><![CDATA[18:49:22.437 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter wrong Credentials 
+Jl3
+18:49:23.780 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+18:49:25.191 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+18:49:25.205 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:49:27.357 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User Enter  Credentials 
+18:49:28.366 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+]]></system-out>
+    <system-err><![CDATA[1683033560438	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:52757
+1683033560443	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1683033560448	Marionette	INFO	Stopped listening on port 52633
+Dynamically enable window occlusion 1
+May 02, 2023 6:49:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+1683033566875	geckodriver	INFO	Listening on 127.0.0.1:22609
+1683033567341	mozrunner::runner	INFO	Running command: "C:\\Users\\ashutoshsingh03\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debuggin ... ocalhost:6591/,http://[::1]:6591/" "-no-remote" "-profile" "C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileJmiNbA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683033568657	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683033568675	Marionette	INFO	Listening on port 52792
+Read port: 52792
+]]></system-err>
+  </testcase>
+  <testcase name="validateWrongCredentials" classname="lumaProject.Tests.LoginpageTest" time="30.492">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//div[@class=&apos;panel header&apos;]//a[contains(text(),&apos;Sign In&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:98)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:98)
+]]></failure>
+    <system-out><![CDATA[18:51:43.982 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+]]></system-out>
+  </testcase>
+  <testcase name="addAddressTest" classname="lumaProject.Tests.AddAddressTest" time="16.532">
+    <system-out><![CDATA[18:49:36.956 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on My account right side  link  
+18:49:38.384 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+18:49:38.396 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:49:40.403 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter  Credentials 
+18:49:40.823 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click on manage address 
+18:49:41.623 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+18:49:43.528 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  Address already existing 
+18:49:43.528 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest -  User click the new address button 
+18:49:45.302 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on My account right side  link  
+KytBi4
+Oaih
+wv0
+18:49:47.356 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on manage address 
+18:49:48.787 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Address already existing 
+18:49:48.787 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click the new address button 
+NWluql
+hyFZ
+9JJ
+18:49:51.954 [TestNG-tests-3] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 
+18:49:54.935 [TestNG-tests-3] INFO  pomPages.LogoutPage -  User clicked on sign out button 
+]]></system-out>
+    <system-err><![CDATA[WebDriver BiDi listening on ws://127.0.0.1:6591
+1683033569417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 20850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofileJmiNbA\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+May 02, 2023 6:49:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 108
+DevTools listening on ws://127.0.0.1:6591/devtools/browser/792870ce-0596-415e-9121-f488fbe0bfd8
+]]></system-err>
+  </testcase>
+  <testcase name="addAddressTest" classname="lumaProject.Tests.AddAddressTest" time="0.479">
+    <failure message="expected [Address Book] but found [Home Page]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Address Book] but found [Home Page]
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:73)
+]]></failure>
+  </testcase>
+  <testcase name="addAddressTest" classname="lumaProject.Tests.AddAddressTest" time="39.305">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@aria-hidden=&apos;false&apos;]//a[normalize-space()=&apos;My Account&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-hidden='false']//a[normalize-space()='My Account']' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@aria-hidden='false']//a[normalize-space()='My Account']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2bdfe2f5-3cb2-4411-8a45-e199a5f0822d, findElement {using=xpath, value=//div[@aria-hidden='false']//a[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:44208, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44208/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2bdfe2f5-3cb2-4411-8a45-e199a5f0822d
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:53)
+]]></failure>
+    <system-out><![CDATA[18:52:46.482 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+18:52:46.485 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+18:52:49.819 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User Enter  Credentials 
+18:52:50.440 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+18:52:55.298 [TestNG-tests-2] INFO  lumaProject.Tests.LoginpageTest -  User click on My account right side  link  
+]]></system-out>
+    <system-err><![CDATA[1683033734686	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:52903
+1683033734689	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1683033734694	Marionette	INFO	Stopped listening on port 52792
+Dynamically enable window occlusion 1
+1683033736961	geckodriver	INFO	Listening on 127.0.0.1:34747
+1683033736983	mozrunner::runner	INFO	Running command: "C:\\Users\\ashutoshsingh03\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debuggin ... alhost:44208/,http://[::1]:44208/" "-no-remote" "-profile" "C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofiletObt1X"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683033737328	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683033737335	Marionette	INFO	Listening on port 52909
+Read port: 52909
+WebDriver BiDi listening on ws://127.0.0.1:44208
+1683033737538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASHUTO~1\\AppData\\Local\\Temp\\rust_mozprofiletObt1X\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:44208/devtools/browser/c14f04a8-1636-446e-bf26-61d040bebf23
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/extender/bound-nodes
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/button
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/draggable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/resizable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/Magento_Translation/js/mage-translation-dictionary.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/position
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: knockoutjs/knockout-fast-foreach
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: knockoutjs/knockout-repeat
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/form/adapter/buttons
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/dataPost
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Translation/js/mage-translation-dictionary
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/theme
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/bootstrap
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery.mobile.custom
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Theme/js/responsive
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate-inline
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/common
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.AddAddressTest" time="0">
+    <system-out><![CDATA[ Testing  Dummy 
+]]></system-out>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.AddAddressTest" time="0">
+    <system-out><![CDATA[ Testing  Dummy 
+]]></system-out>
+  </testcase>
+  <testcase name="dummyTest" classname="lumaProject.Tests.AddAddressTest" time="0.001">
+    <system-out><![CDATA[ Testing  Dummy 
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+2023-05-02 13:06:42.953 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:06:43.058 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+2023-05-02 13:06:43.133 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on About us logo  
+2023-05-02 13:06:44.991 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User check the about us message 
+2023-05-02 13:06:45.014 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Validating the about us 
+2023-05-02 13:06:45.033 [TestNG-tests-1] INFO  pomPages.HomePage -  User read the about us description 

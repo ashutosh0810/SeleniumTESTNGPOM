@@ -1,0 +1,10 @@
+2023-05-02 17:35:39.001 [TestNG-tests-2] INFO  base.BaseTest -  Launching FireFox browsers 
+2023-05-02 17:35:40.463 [TestNG-tests-2] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+2023-05-02 17:35:40.655 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+2023-05-02 17:35:50.845 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+2023-05-02 17:35:50.862 [TestNG-tests-3] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+2023-05-02 17:36:12.930 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 17:36:32.588 [TestNG-tests-3] INFO  base.BaseTest -  Launching Edge browsers 
+2023-05-02 17:36:32.613 [TestNG-tests-3] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 
+2023-05-02 17:36:44.658 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 17:36:44.668 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink

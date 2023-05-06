@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 56, Failures: 14, Errors: 0, Skipped: 16, Time elapsed: 428.533 s <<< FAILURE! - in TestSuite
+lumaProject.Tests.HomePageTest.beforeMethod[public void lumaProject.Tests.HomePageTest.validate_AboutUs(), chrome](0)  Time elapsed: 0.889 s  <<< FAILURE!
+java.lang.NullPointerException
+
+lumaProject.Tests.HomePageTest.beforeMethod[public void lumaProject.Tests.HomePageTest.validate_AboutUs(), firefox](0)  Time elapsed: 4.475 s  <<< FAILURE!
+java.lang.NullPointerException
+
+lumaProject.Tests.WhatsNewTest.validateWhatsNew  Time elapsed: 4.677 s  <<< FAILURE!
+java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+
+lumaProject.Tests.WhatsNewTest.validateWhatsNew  Time elapsed: 6.119 s  <<< FAILURE!
+java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+
+lumaProject.Tests.WhatsNewTest.validateWhatsNew  Time elapsed: 14.119 s  <<< FAILURE!
+java.lang.AssertionError: expected [15 Items] but found [12 Items]
+	at lumaProject.Tests.WhatsNewTest.validateWhatsNew(WhatsNewTest.java:28)
+
+lumaProject.Tests.LoginpageTest.validateWrongCredentials  Time elapsed: 5.501 s  <<< FAILURE!
+java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+
+lumaProject.Tests.CreateAccountTest.createAccount  Time elapsed: 0.749 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.CreateAccountTest.createAccount(CreateAccountTest.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9da3f21f-7292-4979-b3ec-5bee389c41bd, findElement {using=xpath, value=//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:24887, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15464, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:24887/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da3f21f-7292-4979-b3ec-5bee389c41bd
+	at lumaProject.Tests.CreateAccountTest.createAccount(CreateAccountTest.java:54)
+
+lumaProject.Tests.LoginpageTest.validateWrongCredentials  Time elapsed: 3.672 s  <<< FAILURE!
+java.lang.AssertionError: expected [The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.] but found []
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:107)
+
+lumaProject.Tests.AddAddressTest.addAddressTest  Time elapsed: 0.479 s  <<< FAILURE!
+java.lang.AssertionError: expected [Address Book] but found [Home Page]
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:73)
+
+lumaProject.Tests.LoginpageTest.test_ValidLogin[test2@ut.com, Ashu@123](3)  Time elapsed: 9.506 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@aria-hidden='false']//a[normalize-space()='Sign Out']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=//div[@aria-hidden='false']//a[normalize-space()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:85)
+
+lumaProject.Tests.LoginpageTest.test_ValidLogin[test3@ut.com, Ashu@123](4)  Time elapsed: 30.028 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+
+lumaProject.Tests.LoginpageTest.test_ValidLogin[test4@ut.com, Ashu@123](5)  Time elapsed: 30.435 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.test_ValidLogin(LoginpageTest.java:53)
+
+lumaProject.Tests.LoginpageTest.validateWrongCredentials  Time elapsed: 30.492 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//div[@class='panel header']//a[contains(text(),'Sign In')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:98)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//div[@class='panel header']//a[contains(text(),'Sign In')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12989ff6-80e4-4668-a03d-775f10ab705b, findElement {using=xpath, value=.//div[@class='panel header']//a[contains(text(),'Sign In')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:6591, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18788, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6591/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 12989ff6-80e4-4668-a03d-775f10ab705b
+	at lumaProject.Tests.LoginpageTest.validateWrongCredentials(LoginpageTest.java:98)
+
+lumaProject.Tests.AddAddressTest.addAddressTest  Time elapsed: 39.305 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-hidden='false']//a[normalize-space()='My Account']' (tried for 30 second(s) with 500 milliseconds interval)
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@aria-hidden='false']//a[normalize-space()='My Account']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2bdfe2f5-3cb2-4411-8a45-e199a5f0822d, findElement {using=xpath, value=//div[@aria-hidden='false']//a[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:44208, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\ASHUTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:44208/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2bdfe2f5-3cb2-4411-8a45-e199a5f0822d
+	at lumaProject.Tests.AddAddressTest.addAddressTest(AddAddressTest.java:53)
+

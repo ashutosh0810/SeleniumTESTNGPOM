@@ -1,0 +1,6 @@
+2023-05-02 17:38:27.286 [TestNG-tests-1] INFO  base.BaseTest -  Launching FireFox browsers 
+2023-05-02 17:38:27.619 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+2023-05-02 17:39:40.481 [TestNG-tests-1] INFO  base.BaseTest -  Launching FireFox browsers 
+2023-05-02 17:39:40.503 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+2023-05-02 17:40:23.373 [TestNG-tests-1] INFO  base.BaseTest -  Launching FireFox browsers 
+2023-05-02 17:40:23.388 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 

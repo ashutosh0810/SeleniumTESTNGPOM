@@ -1,0 +1,44 @@
+2023-05-02 13:47:32.670 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:47:32.729 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User click on the about us link  
+2023-05-02 13:47:32.795 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on About us logo  
+2023-05-02 13:47:34.256 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  User check the about us message 
+2023-05-02 13:47:34.316 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Validating the about us 
+2023-05-02 13:47:34.347 [TestNG-tests-1] INFO  pomPages.HomePage -  User read the about us description 
+2023-05-02 13:47:34.415 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Number of States are 230stores
+2023-05-02 13:47:34.415 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Number of Stores  are 43states
+2023-05-02 13:47:34.470 [TestNG-tests-1] INFO  pomPages.HomePage -  User clicking on home logo 
+2023-05-02 13:47:35.464 [TestNG-tests-1] INFO  lumaProject.Tests.HomePageTest -  Validating the home page 
+2023-05-02 13:47:40.004 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:47:40.028 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  User click on the whatNewLink
+2023-05-02 13:47:43.093 [TestNG-tests-1] INFO  lumaProject.Tests.WhatsNewTest -  Validating the number of new Hoddies in AUT 
+2023-05-02 13:47:50.587 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:47:50.598 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest -  Starting create account happy path flow 
+2023-05-02 13:47:50.667 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User click on create account link 
+2023-05-02 13:47:52.173 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the first name  
+2023-05-02 13:47:52.258 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the last name  
+2023-05-02 13:47:52.369 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the email for the registration  
+2023-05-02 13:47:52.537 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the password for the registration  
+2023-05-02 13:47:52.679 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User enter the confirm password  for the registration  
+2023-05-02 13:47:52.781 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  User click the create account button  
+2023-05-02 13:47:56.356 [TestNG-tests-1] INFO  pomPages.AccountCreatePage -  submit_btn click successfull  
+2023-05-02 13:47:56.356 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest -  accountCreatePage.click_createActBtn() successfull 
+2023-05-02 13:47:57.033 [TestNG-tests-1] INFO  lumaProject.Tests.CreateAccountTest - User click logout icon 
+2023-05-02 13:48:02.194 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 13:48:02.212 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on Sign in link  
+2023-05-02 13:48:03.844 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter  Credentials 
+2023-05-02 13:48:04.234 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on sign in Button 
+2023-05-02 13:48:07.658 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on My account right side  link  
+2023-05-02 13:48:09.244 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click on manage address 
+2023-05-02 13:48:10.915 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  Address already existing 
+2023-05-02 13:48:10.915 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click the new address button 
+2023-05-02 13:48:17.659 [TestNG-tests-1] INFO  pomPages.AddnewAddressPage - stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21f48583cf09fcf47e7f88ed89a6e62c, isElementDisplayed {id=185ddb21-3138-417f-b7bb-6e8132eb99e4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52008/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (21f48583cf09fcf47e7f88ed89a6e62c)] -> xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']]
+Session ID: 21f48583cf09fcf47e7f88ed89a6e62c
+2023-05-02 13:48:17.691 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest - User click logout icon 

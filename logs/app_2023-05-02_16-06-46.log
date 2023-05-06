@@ -1,0 +1,5 @@
+2023-05-02 16:06:54.091 [TestNG-tests-1] INFO  base.BaseTest -  Launching Chrome browsers 
+2023-05-02 16:07:05.194 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter Username from excel 
+2023-05-02 16:07:05.552 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Enter password from excel 
+2023-05-02 16:07:05.775 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User click Sign in button  
+2023-05-02 16:07:08.495 [TestNG-tests-1] INFO  lumaProject.Tests.LoginpageTest -  User Validaing page title  
